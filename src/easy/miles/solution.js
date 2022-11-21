@@ -5,14 +5,21 @@ let miles
  let kilo
 
 
- function convertKilo(kilo){
-    let convert= kilo*0.6
- console.log("convert",convert)
-console.log (convert.toFixed(3))
-    let roundDownMile=Math.floor(convert)
-    let roundUpMile=Math.round(convert)
-//    console.log(roundUpMile)
-//    console.log(roundDownMile)
- return roundUpMile
+//  function convertKilo(kilo){
+//     let convert= kilo*0.6
+//  console.log("convert",convert)
+// console.log (convert.toFixed(3))
+//     let roundDownMile=Math.floor(convert)
+//     let roundUpMile=Math.round(convert)
+// //    console.log(roundUpMile)
+// //    console.log(roundDownMile)
+//  return roundUpMile
+// }
+// console.log(convertKilo(3))
+
+function convertKilo(kilo) {
+        let convert= kilo*0.6
+        let rounded= convert.rounded()
+return rounded
 }
-console.log(convertKilo(3))
+console.log(convertKilo(1)) //should be 2
