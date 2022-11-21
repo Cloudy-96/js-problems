@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // If the number  is divisible by 3, OR the number is divisible 5 under the value of 1000, return the value (into an array?) 
 
 
@@ -11,3 +12,5 @@ for (let i = 0; i< 1000 ; i++) {
   console.log(sum)
 
 
+=======
+>>>>>>> fe13d368e6a4675973a0d48a61e264936a97cc9c
