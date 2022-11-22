@@ -1,5 +1,5 @@
 
-let sentence= 'hi, my name is Kat!'
+let sentence= 'hi, my name is Kat'
 
 function capitalize(sentence) {
     const upCaseChar = sentence[0].toUpperCase()

@@ -8,3 +8,7 @@ function numGenerator(min, max) {
 }
 
 console.log(numGenerator(0, 10))
+
+module.exports = { 
+numGenerator: numGenerator
+}
