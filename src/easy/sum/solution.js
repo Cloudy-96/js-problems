@@ -4,8 +4,9 @@
 
 // 1 + 2 + 3 + 4 + 5 = 15
 
-let sum1
+let sum1=1
 for(let i=1;i<= 100;i++){
-      sum1+= i
+    console.log("before",sum1)
+      sum1 += i
     console.log (sum1)
 }
