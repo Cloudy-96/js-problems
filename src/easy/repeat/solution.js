@@ -6,16 +6,17 @@
 // let newStr 
 
 function ssttrriinngg(argStr) {
-    let newStr = ''
-    let oldStr = argStr
-        for (let i = 0; i <= argStr.length; i++) {
-        newStr = oldStr.charAt(i)
-        newStr = oldStr.charAt(i)
-          
+    let newStr = ""
+    // console.log(argStr)
+        for (let i = 0; i < argStr.length; i++) {
+        newStr += argStr[i] + argStr[i]
+        // console.log(argStr[i] + argStr[i])
+        
     }
+    // console.log(newStr)
     return newStr
 }
 
-console.log(ssttrriinngg('Hi'))
+console.log(ssttrriinngg('Look what I did Kat'))s
 
 // result= result + string
